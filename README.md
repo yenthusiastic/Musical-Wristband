@@ -49,7 +49,7 @@ In this repository I have included the materials and skills required to complete
 <ul> <a href="/Arduino%20Sketch">4. Software/ Arduino sketch</a></ul>
 <ul> <a href="/Textile_Bootcamp_Overview.pdf">5. Summary of the skills learned through Textile Academy Bootcamp</a>
 
-and <ul> <a href="/Media">photos and videos</a></ul> of the making process.
+and <a href="/Media">photos and videos</a> of the making process.
 
 =======
 
