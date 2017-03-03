@@ -3,6 +3,7 @@
 ### An open source project by Thi Yen Thu Nguyen
 
 This project is done as a final project for the 5-day Textile Academy Bootcamp 2017 (from 20.02 to 24.02)
+
 An overview of the Textile Academy Bootcamp documentation can be found here.
 
 ############
@@ -11,7 +12,9 @@ An overview of the Textile Academy Bootcamp documentation can be found here.
 
 Initially, the idea for my final project was to make a bracelet out of interlocking textile patterns, and embed a Contactless Thermopile Infrared Temperature Sensor from Adafruit Industries, a loudspeaker, and a compact microcontroller like the Sparkfun Lily Tiny or similar. It will function as a safety wristband which will ring an alarm when the hand is near to a hot object or surface and may get burnt by contact with it. For example, in the FabLab we have to work a lot with 3D printers which have hot printing bed as well as hot extruders. As such, one always have to pay attention not to touch these spots. But sometimes, we are too excited to get our newly 3D printed model out of the machine and forget about safety instructions. The wristband would come in handy in such cases.
 
+
 However, being inspired by the interactive poster from Jana which can play melodies through touching (Overview document), I challenged myself to do something similar instead. This would make the wristband more fun to interact with and not so passive as a temperature sensor. Instead of playing fixed programmed melodies, I would prefer the wristband to let users compose their own melodies with different musical notes by touching different spots on the textile. 
+
 
 Using an Arduino Pro Micro (which can replace Arduino UNO for this project’s purpose but is more compact and also easy to reprogram through its micro-USB port), I would be able to wire up 1 loudspeaker, 1 Neopixel and easily up to 12 capacitive sensors, meaning <b>the wristband can play up to 12 different musical notes</b>.
 
