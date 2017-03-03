@@ -44,10 +44,12 @@ In this repository I have included the materials and skills required to complete
 <ul> <a href="/Design%20files">2. Design files</a></ul>
 <ul> <ul> <a href="/Design%20files/Bracelet-design-rev0.2.ai">a. General design of the wristband</a></ul></ul>
 <ul> <ul> <a href="/Design%20files/ScalePattern1mm.stl">b. The 3D printed patterns</a></ul></ul>
-<ul> <a href="/Project documentation.txt">3. Documentation of the steps to finish the project</a></ul>
-<ul> <a href="/Media">4. Photos of the process</a></ul>
-<ul> <a href="/Arduino%20Sketch">5. Software/ Arduino sketch for Arduino Pro Micro</a></ul>
-<ul> <a href="/Textile_Bootcamp_Overview.pdf">6. Summary of the skills learned through Textile Academy Bootcamp</a>
+<ul> <ul> <a href="/Design%20files/Embroidery-Pattern">b. The embroidered touch sensors pattern</a></ul></ul>
+<ul> <a href="/Project documentation.txt">3. Documentation of the making process</a></ul>
+<ul> <a href="/Arduino%20Sketch">4. Software/ Arduino sketch</a></ul>
+<ul> <a href="/Textile_Bootcamp_Overview.pdf">5. Summary of the skills learned through Textile Academy Bootcamp</a>
+
+and <ul> <a href="/Media">photos and videos</a></ul> of the making process.
 
 =======
 
