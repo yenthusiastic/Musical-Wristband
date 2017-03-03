@@ -15,12 +15,12 @@ An overview of my Textile Academy Bootcamp experiences can be found <a href="/Te
 
 <h3>These photos show the current version of my fully functional musical wristband prototype with the following features:</h3>
 
-<ul><p><b>Textile-based wearable</b> design with extendable 3D printend patterns</p></ul>
-<ul><p> Embroidered dot patterns which act as <b>touch sensors</b> </p></ul>
-<ul><p> Capable of playing <b>12 different musical notes</b>, which can be modified easily in the software </p></ul>
-<ul><p> <b>Notification light</b> which shows a separate color for each note </p></ul>
+<ul><p>-<b> Textile-based wearable</b> design with extendable 3D printend patterns</p></ul>
+<ul><p>- Embroidered dot patterns which act as <b>touch sensors</b> </p></ul>
+<ul><p>- Capable of playing <b>12 different musical notes</b>, which can be modified easily in the software </p></ul>
+<ul><p>- <b>Notification light</b> which shows a separate color for each note </p></ul>
 
-Some videos of the working prototype can be found <a href="https://drive.google.com/open?id=1Z6S9Ow4DFeNC1pcFJgWmBOpGZVO2vQA2ew">here</a> and <a href="https://drive.google.com/open?id=1La1Y-eIfwR8ZsLkto_pnXsW72Wj5l-rd9Q">here.</a>
+<h3>Some videos of the working prototype can be found <a href="https://drive.google.com/open?id=1Z6S9Ow4DFeNC1pcFJgWmBOpGZVO2vQA2ew">here</a> and <a href="https://drive.google.com/open?id=1La1Y-eIfwR8ZsLkto_pnXsW72Wj5l-rd9Q">here.</a></h3>
 
 =======
 
@@ -39,16 +39,15 @@ Using an <a href="http://www.exp-tech.de/pro-micro-5v-16mhz">Arduino Pro Micro</
 
 <h1> Resources </h1>
 
-In this repository I have included the materials required to complete the project:
-<ul> <a href="/BOM.xlsx">1. Electronic components and tools list</a></ul>
+In this repository I have included the materials and skills required to complete the project:
+<ul> <a href="/BOM.xlsx">1. Components, materials and tools list</a></ul>
 <ul> <a href="/Design%20files">2. Design files</a></ul>
 <ul> <ul> <a href="/Design%20files/Bracelet-design-rev0.2.ai">a. General design of the wristband</a></ul></ul>
 <ul> <ul> <a href="/Design%20files/ScalePattern1mm.stl">b. The 3D printed patterns</a></ul></ul>
 <ul> <a href="/Project documentation.txt">3. Documentation of the steps to finish the project</a></ul>
 <ul> <a href="/Media">4. Photos of the process</a></ul>
 <ul> <a href="/Arduino%20Sketch">5. Software/ Arduino sketch for Arduino Pro Micro</a></ul>
-
-and an <a href="/Textile_Bootcamp_Overview.pdf">overview</a> of the Textile Academy Bootcamp experiences.
+<ul> <a href="/Textile_Bootcamp_Overview.pdf">6. Summary of the skills learned through Textile Academy Bootcamp</a>
 
 =======
 
