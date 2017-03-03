@@ -35,7 +35,6 @@ In this repository I have included the materials required to complete the projec
 <ul> <ul> <a href="/Design%20files/ScalePattern1mm.stl">b. The 3D printed patterns</a></ul></ul>
 <ul> <a href="/Project documentation.txt">3. Documentation of the steps to finish the project</a></ul>
 <ul> <a href="/Media">4. Photos of the process</a></ul>
-<<<<<<< HEAD
 <ul> <a href="/Arduino%20Sketch">5. Software/ Arduino sketch for Arduino Pro Micro</a></ul>
 
 and an <a href="/Textile_Bootcamp_Overview.pdf">overview</a> of the Textile Academy Bootcamp experiences.
