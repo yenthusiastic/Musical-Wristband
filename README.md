@@ -2,17 +2,27 @@
 ### An interactive wristband that plays musical notes via embedded touch sensors
 ### An open source project by Thi Yen Thu Nguyen
 
-=======
-
 This project is done as a final project for the 5-day Textile Academy Bootcamp 2017 (from 20.02 to 24.02)
 
-An overview of the Textile Academy Bootcamp documentation can be found <a href="/Textile_Bootcamp_Overview.pdf">here</a>.
+An overview of my Textile Academy Bootcamp experiences can be found <a href="/Textile_Bootcamp_Overview.pdf">here</a>.
 
-############
+=======
 
 <h1> The results </h1>
 
+<img src="/Media/Photo%206.4.jpg" width="500" height="400">
+<img src="/Media/Photo%206.6.jpg" width="300" height="400">
 
+<h3>These photos show the current version of my fully functional musical wristband prototype with the following features:</h3>
+
+<ul><p><b>Textile-based wearable</b> design with extendable 3D printend patterns</p></ul>
+<ul><p> Embroidered dot patterns which act as <b>touch sensors</b> </p></ul>
+<ul><p> Capable of playing <b>12 different musical notes</b>, which can be modified easily in the software </p></ul>
+<ul><p> <b>Notification light</b> which shows a separate color for each note </p></ul>
+
+Some videos of the working prototype can be found <a href="https://drive.google.com/open?id=1Z6S9Ow4DFeNC1pcFJgWmBOpGZVO2vQA2ew">here</a> and <a href="https://drive.google.com/open?id=1La1Y-eIfwR8ZsLkto_pnXsW72Wj5l-rd9Q">here.</a>
+
+=======
 
 <h1> Motivation </h1>
 
@@ -22,14 +32,15 @@ Initially, the idea for my final project was to make a bracelet out of interlock
 However, being inspired by the interactive poster from Jana which can play melodies through touching (see <a href="/Textile_Bootcamp_Overview.pdf">Overview</a> document, Day 4), I challenged myself to do something similar instead. This would make the wristband more fun to interact with and not so passive as a temperature sensor. Instead of playing fixed programmed melodies, I would prefer the wristband to let users compose their own melodies with different musical notes by touching different spots on the textile. 
 
 
-Using an <a href="http://www.exp-tech.de/pro-micro-5v-16mhz">Arduino Pro Micro</a> (which can replace Arduino UNO for this project’s purpose but is more compact and also easy to reprogram through its micro-USB port), I would be able to wire up 1 loudspeaker, <a href="https://www.adafruit.com/category/168">1 Neopixel</a> and easily up to 12 DIY capacitive sensors (see <a href="/Overview.pdf">Overview</a> document, Day 4), meaning <b>the wristband can play up to 12 different musical notes</b>.
+Using an <a href="http://www.exp-tech.de/pro-micro-5v-16mhz">Arduino Pro Micro</a> (which can replace Arduino UNO for this project’s purpose but is more compact and also easy to be programmed through its micro-USB port), I would be able to wire up together 1 loudspeaker, <a href="https://www.adafruit.com/category/168">1 Neopixel</a> and easily up to 12 DIY capacitive sensors (see <a href="/Overview.pdf">Overview</a> document, Day 4), meaning the wristband can play up to 12 different musical notes.
+
 
 =======
 
 <h1> Resources </h1>
 
 In this repository I have included the materials required to complete the project:
-<ul> <a href="/BOM.xlsx">1. Electronic components list</a></ul>
+<ul> <a href="/BOM.xlsx">1. Electronic components and tools list</a></ul>
 <ul> <a href="/Design%20files">2. Design files</a></ul>
 <ul> <ul> <a href="/Design%20files/Bracelet-design-rev0.2.ai">a. General design of the wristband</a></ul></ul>
 <ul> <ul> <a href="/Design%20files/ScalePattern1mm.stl">b. The 3D printed patterns</a></ul></ul>
