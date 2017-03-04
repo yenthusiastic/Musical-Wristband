@@ -16,7 +16,7 @@ An overview of my Textile Academy Bootcamp experiences can be found <a href="/Te
 <h3>These photos show the current version of my fully functional musical wristband prototype with the following features:</h3>
 
 <ul><p>-<b> Textile-based wearable</b> design with extendable 3D printend patterns</p></ul>
-<ul><p>- Embroidered dot patterns which act as <b>touch sensors</b> </p></ul>
+<ul><p>- Embroidered dot patterns which act as <b>interface for touch sensors</b> </p></ul>
 <ul><p>- Capable of playing <b>12 different musical notes</b>, which can be modified easily in the software </p></ul>
 <ul><p>- <b>Notification light</b> which shows a separate color for each note </p></ul>
 
