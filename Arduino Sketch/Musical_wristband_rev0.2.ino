@@ -5,27 +5,42 @@
 #include <avr/power.h>
 #endif
 /*
- * CapitiveSense Library Demo Sketch
+ * This sketch uses the  
+ * CapitiveSense Library by
  * Paul Badger 2008
  * Uses a high value resistor e.g. 10M between send pin and receive pin
  * Resistor effects sensitivity, experiment with values, 50K - 50M. Larger resistor values yield larger sensor values.
  * Receive pin is the sensor pin - try different amounts of foil/metal on this pin
+ *
+ * and the NeoPixel Library
+ * by Adafruit Industries
  */
 
+//Which PWM pin on Arduino connects to the buzzer's PWM pin?
 #define BUZZER 9
 
+//Which pin on Arduino connects to the NeoPixel's DIN pin?
 #define PIXELPIN 8
 
+//How many NeoPixels are used in a single strip?
 #define NUM_LEDS 1
 
-#define BRIGHTNESS 50
-
+//How many capacitive sensors are connected to Arduino?
 #define NUM_SENSORS 12
 
+//Set the brightness % of the NeoPixel
+#define BRIGHTNESS 50
+
+//Test and set the sensor threshold to trigger output 
 #define SENSOR_THRESHOLD 200
 
+//Set as "true" to view sensor values in Serial Monitor
 bool debug = true;
 
+/* Pins on Arduino that connect to sensors
+ * Can be any IO pins except for BUZZER pin, NeoPixel pin
+ * and the pins that act as reference for sensors (pin 2 and 10 in this case)
+ */
 int sensorPins[12] = {3, 4, 5, 6, 7, 14, 15, 16, A0, A1, A2, A3};
 
 long sensorVals[NUM_SENSORS];
@@ -48,17 +63,6 @@ CapacitiveSensor mySensors[12] = {
 
   
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUM_LEDS, PIXELPIN, NEO_GRBW + NEO_KHZ800);
-
-int melody[] = {
-  NOTE_C4, NOTE_G3, NOTE_G3, NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4
-};
-
-// note durations: 4 = quarter note, 8 = eighth note, etc.:
-int noteDurations[] = {
-  4, 8, 8, 4, 4, 4, 4, 4
-};
-
-
 
 
 void setup()                    
@@ -93,7 +97,7 @@ void loop()
   
 }
 
-
+//function to define which sensor will trigger which Neopixel's color
 void colorWipe(int colorCode) {
   uint32_t color;
   switch(colorCode){
@@ -133,21 +137,16 @@ void colorWipe(int colorCode) {
     case 11:
     color = Wheel(240);
     break;
-    case 12:
-    color = (0, 0, 0);
-    break;
-    
-    
+
   }
-  
- 
-    strip.setPixelColor(0, color);
-    
+
+    strip.setPixelColor(0, color);   
     //strip.show() means send buffer to neopixels
     strip.show();
  
 }
 
+//function to define which sensor will trigger which musical note
 void toneController(int sensorPin){
   switch(sensorPin){
     case 0:
@@ -185,11 +184,7 @@ void toneController(int sensorPin){
     break;
     case 11:
     playNote(NOTE_D5);
-    break;
-    case 12:
-    playTone();
-    break;
-    
+    break; 
     
   }
   
@@ -212,24 +207,8 @@ void playNote(int note){
   tone(BUZZER, note, 150);
 
 }
-void playTone(){
-    for (int thisNote = 0; thisNote < 8; thisNote++) {
 
-    // to calculate the note duration, take one second
-    // divided by the note type.
-    //e.g. quarter note = 1000 / 4, eighth note = 1000/8, etc.
-    int noteDuration = 1000 / noteDurations[thisNote];
-    tone(BUZZER, melody[thisNote], noteDuration);
-
-    // to distinguish the notes, set a minimum time between them.
-    // the note's duration + 30% seems to work well:
-    int pauseBetweenNotes = noteDuration * 1.30;
-    delay(pauseBetweenNotes);
-    // stop the tone playing:
-    noTone(BUZZER);
-  }
-}
-
+//function to show sensor values
 void showDebug(){
  
     Serial.print(millis() - start);        // check on performance in milliseconds
@@ -244,7 +223,7 @@ void showDebug(){
     }
     
 
-    Serial.println();                  // print sensor output 1
+    Serial.println();                  // print sensor output 
 
 }
 
