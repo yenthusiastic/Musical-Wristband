@@ -65,7 +65,7 @@ If you are using the Lilypad buzzer like mine, you can either leave it as is or 
 
 <ul>3.3. Solder wires with female pin headers to the Neopixel. We only need 3 wires for 3 pins: VCC, GND and Data IN</ul>
 
-<ul>3.4. Prepare 1 row of 6 female pin headers and 5 medium to high value resistors (100 kilohm - 50 megohm). Solder one end of all 5 resistors to the first pin and the other end of each resistor to each of the remaining pin. An explanation of the capacitive sensors is available on the <a href="http://playground.arduino.cc/Main/CapacitiveSensor?from=Main.CapSense">Arduino website</a>.</ul>
+<ul>3.4. Prepare 1 row of 6 female pin headers and 5 medium to high value resistors (100 kilohm - 50 megohm). Solder one end of all 5 resistors to the first pin and the other end of each resistor to each of the remaining pin. An explanation of the capacitive sensors is available on the <a href="http://playground.arduino.cc/Main/CapacitiveSensor?from=Main.CapSense">Arduino website</a>. Here I use a 4.7M Ohm resistor and I find it fairly good and responsive enough. Using higher-value resistor would give you a more responsive sensor.</ul>
 
 
 <img src="/Media/Photo%205.4c.jpg" width="400" height="300">
