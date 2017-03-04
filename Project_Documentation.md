@@ -157,7 +157,7 @@ Sensors 6-12 ------------------- 16-A3
 
 And the final wiring would look like this:
 
-<img src="/Media/Photo%206.5.jpg" width="500" height="400">
+<img src="/Media/Photo%206.5.jpg" width="300" height="400">
 
 You can use tape or glue to keep the sensors aligned with the embroidered conductive pads on the wristband.
 
