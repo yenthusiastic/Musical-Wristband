@@ -7,7 +7,7 @@ This project is done as a final project for the 5-day Textile Academy Bootcamp 2
 An overview of my Textile Academy Bootcamp experiences can be found <a href="/Textile_Bootcamp_Overview.pdf">here</a>.
 
 
-<h1> Some insights to choosing materials and parts </h1>
+## Some insights to choosing materials and parts 
 
 The reason for choosing Neopixel as notification light is straightforward: Adafruit has their own Arduino library for these little RGB LED chips, which makes it super easy to programm one single chip to show different colors (up to 16 million colors).
 
@@ -16,7 +16,7 @@ The reason for choosing the Arduino Pro Micro instead of some other Arduino-base
 However, if one is more comfortable with sewing and less familiar with soldering, it is possible to make the circuit detachable with Lilypads by sewing snap buttons in between the connection lines, with the button's female part sewn to the Lilypad and the male part sewn to the sensors/ loudspeaker/ Neopixel (or vice versa). As such, only when the snap button is closed would the connection be closed.
 
 
-<h1> Start making! </h1>
+## Start making! 
 
 First, make sure that you have gathered all the components and materials as described in <a href="/BOM.xlsx">this BOM list</a>.
 
@@ -24,7 +24,7 @@ Refer to the design of the wristband below to have an overview of what we would 
 
 <img src="/Design%20files/Bracelet-design-rev0.2.jpg" width="600" height="400">
 
-<h3>1. 3D Print the pattern </h3>
+### 1. 3D Print the pattern
 Start with printing the <a href="/Design%20files/ScalePattern1mm.stl">3D pattern</a>. I printed using the <a href="https://ultimaker.com/en/products/ultimaker-2-plus">Ultimaker 2 Extended</a> 3D printer with a 0.8mm nozzle, first with normal black PLA filament and then with flexible grey PLA filament. The pattern I printed was 200mm wide x 30mm high x 1mm deep, but you can scale it up or down in the <a href="https://ultimaker.com/en/products/cura-software">CURA</a> software.
 
 <img src="/Media/Photo%205.2.jpg" width="300" height="400">
@@ -32,7 +32,7 @@ Start with printing the <a href="/Design%20files/ScalePattern1mm.stl">3D pattern
 <i>Photo: 3D printed pattern using normal black PLA filament (right) and flexible grey PLA filament (left)</i>
 
 
-<h3>2. Embroid the conductive pads for touch sensors </h3>
+### 2. Embroid the conductive pads for touch sensors
 Next, send the <a href="/Design%20files/Embroidery-Pattern">conductive pads pattern</a> to the embroidery machine, which has to be threaded with <b>conductive thread</b>. 
 
 In fact, I had to do a bridging step of converting the image to an embroidery file that the machine can actually read using a trial version of the <a href="https://www.wilcom.com/Hatch/Products/HotcakeStoreAdmin/ProductViewer/tabid/3605/slug/Embroidery-Digitizer/Default.aspx">Hatch embroidery digitizer software</a>. And now you are ready to embroid on your textile of choice.
@@ -41,7 +41,7 @@ In fact, I had to do a bridging step of converting the image to an embroidery fi
 
 <i>Photo: Conductive pads pattern for touch sensor embroidered using conductive thread</i>
 
-<h3><a name="section3">3. Test electronics and software</a></h3>
+### <a name="section3">3. Test electronics and software</a>
 While waiting for the embroidery machine and 3D printer to finish their jobs, test out the hardware and the Arduino sketch by preparing the following parts:
 
 <ul>3.1. Solder male pin headers to Arduino Pro Micro. I suggest using male pin headers with 90° bend so that the board is as flat as possible and thus is easy to embed on textile later on.</ul>
@@ -120,7 +120,7 @@ Each note is basically represented as a frequency which is defined in the [pitch
 
 If the hardware is working fine, continue with making your wristband. Else, I suggest you check your wiring, components' values, and solder joints.
 
-<h3>4. Sew the wristband together</h3>
+### 4. Sew the wristband together
 
 Now that the conductive pads have been embroidered on the front of the textile, we can cut out the piece of the size we need for the wristband. I cut a piece of around 250mmx85mm and then sew the edges into the back side. We can now make a pocket for the microcontroller at the back side.
 
