@@ -60,7 +60,7 @@ Otherwise, you can sew the Lilypad to the textile and make snap button connectio
 
 <i>Photo: Lilypad buzzer soldered with wires and optional components</i>
 
-If you are using the Lilypad buzzer like mine, you can either leave it as is or solder extra parts like signal diode, NPN transistor and resistor as described in the <a href="http://cdn.sparkfun.com/datasheets/Components/General/CCV-084B16-CUI-datasheet-29139.pdf">Datasheet</a>. I've tried both and in both cases the buzzer works similarly. What you need to note is that, without extra component, you only have 2 connections from this buzzer PCB to the Arduino (+ and -). However, with extra components, you will have 3 connections: + (red wire), - (black wire) and PWM (yellow wire). The PWM connection (yellow wire) goes to one of those certain pins on the Arduino that have a "~" sign next to them, for example, pin ~9.
+If you are using the Lilypad buzzer like mine, you can either leave it as is or solder extra parts like signal diode, NPN transistor and resistor as described in the <a href="http://cdn.sparkfun.com/datasheets/Components/General/CCV-084B16-CUI-datasheet-29139.pdf">Datasheet</a>. I've tried both and in both cases the buzzer works similarly. What you need to note is that, without extra component, you only have 2 connections from this buzzer PCB to the Arduino (+ and -). However, with extra components, you will have 3 connections: + (red wire), - (white wire) and PWM (yellow wire). The PWM connection (yellow wire) goes to one of those certain pins on the Arduino that have a "~" sign next to them, for example, pin ~9.
 
 
 <ul>3.3. Solder wires with female pin headers to the Neopixel. We only need 3 wires for 3 pins: VCC, GND and Data IN</ul>
