@@ -34,7 +34,6 @@ However, being inspired by the interactive poster from Jana which can play melod
 Using an <a href="http://www.exp-tech.de/pro-micro-5v-16mhz">Arduino Pro Micro</a> (which can replace Arduino UNO for this project’s purpose but is more compact and also easy to be programmed through its micro-USB port), I would be able to wire up together 1 loudspeaker, <a href="https://www.adafruit.com/category/168">1 Neopixel</a> and easily up to 12 DIY capacitive sensors (see <a href="/Overview.pdf">Overview</a> document, Day 4), meaning the wristband can play up to 12 different musical notes.
 
 
-
 <h1> Resources </h1>
 
 In this repository I have included the materials and skills required to complete the project:
@@ -48,7 +47,6 @@ In this repository I have included the materials and skills required to complete
 <ul> <a href="/Textile_Bootcamp_Overview.pdf">5. Summary of the skills learned through Textile Academy Bootcamp</a>
 
 and <a href="/Media">photos and videos</a> of the making process.
-
 
 <h1> License </h1>
 
