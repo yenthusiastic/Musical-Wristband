@@ -19,7 +19,7 @@ An overview of my Textile Academy Bootcamp experiences can be found under the <a
 <ul><p>- Capable of playing <b>12 different musical notes</b>, which can be modified easily in the software </p></ul>
 <ul><p>- <b>"DISCO" light</b> which shows a separate color for each note </p></ul>
 
-#### Some videos of the working prototype can be found <a href="https://drive.google.com/open?id=1Z6S9Ow4DFeNC1pcFJgWmBOpGZVO2vQA2ew">here</a> and <a href="https://drive.google.com/open?id=1La1Y-eIfwR8ZsLkto_pnXsW72Wj5l-rd9Q">here.</a>
+#### Some videos of the working prototype can be found <a href="https://drive.google.com/drive/u/0/folders/0B77ddV_s5oS_WGxQaGdNdkNOQzA">here</a> and <a href="https://drive.google.com/open?id=1La1Y-eIfwR8ZsLkto_pnXsW72Wj5l-rd9Q">here.</a>
 
 
 
