@@ -4,7 +4,7 @@
 
 This project is done as a final project for the 5-day Textile Academy Bootcamp 2017 (from 20.02 to 24.02)
 
-An overview of my Textile Academy Bootcamp experiences can be found <a href="/Textile_Bootcamp_Overview.pdf">here</a>.
+An overview of my Textile Academy Bootcamp experiences can be found under the <a href="/Textile_Bootcamp_Overview.pdf">Textile Bootcamp Overview PDF File</a>.
 
 
 ## The results 
