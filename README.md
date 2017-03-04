@@ -1,6 +1,6 @@
 # Musical Wristband
 ### An interactive wristband that plays musical notes via embedded touch sensors
-#### An open source project by Thi Yen Thu Nguyen
+### An open source project by Thi Yen Thu Nguyen
 
 This project is done as a final project for the 5-day Textile Academy Bootcamp 2017 (from 20.02 to 24.02)
 
