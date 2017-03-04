@@ -18,7 +18,7 @@ An overview of my Textile Academy Bootcamp experiences can be found <a href="/Te
 <ul><p>-<b> Textile-based wearable</b> design with extendable 3D printend patterns</p></ul>
 <ul><p>- Embroidered dot patterns which act as <b>interface for touch sensors</b> </p></ul>
 <ul><p>- Capable of playing <b>12 different musical notes</b>, which can be modified easily in the software </p></ul>
-<ul><p>- <b>Notification light</b> which shows a separate color for each note </p></ul>
+<ul><p>- <b>"DISCO" light</b> which shows a separate color for each note </p></ul>
 
 <h3>Some videos of the working prototype can be found <a href="https://drive.google.com/open?id=1Z6S9Ow4DFeNC1pcFJgWmBOpGZVO2vQA2ew">here</a> and <a href="https://drive.google.com/open?id=1La1Y-eIfwR8ZsLkto_pnXsW72Wj5l-rd9Q">here.</a></h3>
 
