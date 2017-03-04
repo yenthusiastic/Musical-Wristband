@@ -104,17 +104,21 @@ Female pin headers 1-6 ------- 2-7, which also means
 
 Sensors 1-5 -------------------- 3-7
 
-The loudspeaker PWM pin can be redefined as any other PWM ~ pin in [line 15](/Arduino%20Sketch/Musical_wristband_rev0.2.ino#L15) of the [final sketch](/Arduino%20Sketch/Musical_wristband_rev0.2.ino), as long as it is not the same pin as the sensor pin.
+The loudspeaker PWM pin can be redefined as any other PWM ~ pin in [line 20](/Arduino%20Sketch/Musical_wristband_rev0.2.ino#L20) of the [final sketch](/Arduino%20Sketch/Musical_wristband_rev0.2.ino), as long as it is not the same pin as the sensor pin.
 
-Similary, the NeoPixel DIN pin can be redefined as any other I/O pin in [line 17](/Arduino%20Sketch/Musical_wristband_rev0.2.ino#L17) of the [final sketch](/Arduino%20Sketch/Musical_wristband_rev0.2.ino), as long as it is not the same pin as the sensor pin.
+Similary, the NeoPixel DIN pin can be redefined as any other I/O pin in [line 23](/Arduino%20Sketch/Musical_wristband_rev0.2.ino#L23) of the final sketch, as long as it is not the same pin as the sensor pin.
 
-Depending on the number of sensors you are testing, you will also need to change [line 23](/Arduino%20Sketch/Musical_wristband_rev0.2.ino#L17) of the [final sketch](/Arduino%20Sketch/Musical_wristband_rev0.2.ino), for example, to 5.
 
 <ul>3.7. Connect the Arduino Pro Micro to PC via micro USB cable, open the Arduino IDE and upload the sketch to the board. Make sure you choose the right Port and Board under the Tools menu of the IDE.</ul>
 
-I also suggest you keep the "debug" variable as "true" ([line 27](/Arduino%20Sketch/Musical_wristband_rev0.2.ino#L27)). Now if you open the Serial Monitor, you will be able to see the sensor values running. Try touching your sensors and see how the values change. When you find the value that is good enough to be used as a trigger for the loudspeaker, set it as the "SENSOR_THRESHOLD" in [line 25](/Arduino%20Sketch/Musical_wristband_rev0.2.ino#L25).
+Depending on the number of NeoPixels you are using, you will need to change [line 26](/Arduino%20Sketch/Musical_wristband_rev0.2.ino#L26) of the final sketch.
 
-It is possible to change the brightness of the Neopixel in [line 21](/Arduino%20Sketch/Musical_wristband_rev0.2.ino#L21) and also the note that each sensor would trigger to play in the function [toneController()](/Arduino%20Sketch/Musical_wristband_rev0.2.ino#L151-L191).
+Depending on the number of sensors you are testing, you will also need to change [line 29](/Arduino%20Sketch/Musical_wristband_rev0.2.ino#L29) of the final sketch, for example, to 5.
+
+It is possible to change the brightness of the Neopixel in [line 32](/Arduino%20Sketch/Musical_wristband_rev0.2.ino#L21) and also the note that each sensor would trigger to play in the function [toneController()](/Arduino%20Sketch/Musical_wristband_rev0.2.ino#L150-L191).
+
+I also suggest you keep the "debug" variable as "true" ([line 38](/Arduino%20Sketch/Musical_wristband_rev0.2.ino#L38)). Now if you open the Serial Monitor, you will be able to see the sensor values running. Try touching your sensors and see how the values change. When you find the value that is good enough to be used as a trigger for the loudspeaker, set it as the "SENSOR_THRESHOLD" in [line 35](/Arduino%20Sketch/Musical_wristband_rev0.2.ino#L35).
+
 
 Each note is basically represented as a frequency which is defined in the [pitches.h](/Arduino%20Sketch/pitches.h) (a C++ header) file.
 
