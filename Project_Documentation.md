@@ -120,7 +120,7 @@ Each note is basically represented as a frequency which is defined in the [pitch
 
 If the hardware is working fine, continue with making your wristband. Else, I suggest you check your wiring, components' values, and solder joints.
 
-<h3>4. Sewing the wristband together</h3>
+<h3>4. Sew the wristband together</h3>
 
 Now that the conductive pads have been embroidered on the front of the textile, we can cut out the piece of the size we need for the wristband. I cut a piece of around 250mmx85mm and then sew the edges into the back side. We can now make a pocket for the microcontroller at the back side.
 
