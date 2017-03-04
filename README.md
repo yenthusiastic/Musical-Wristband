@@ -1,6 +1,6 @@
 # Musical Wristband
 ### An interactive wristband that plays musical notes via embedded touch sensors
-### An open source project by Thi Yen Thu Nguyen
+#### An open source project by Thi Yen Thu Nguyen
 
 This project is done as a final project for the 5-day Textile Academy Bootcamp 2017 (from 20.02 to 24.02)
 
@@ -12,14 +12,14 @@ An overview of my Textile Academy Bootcamp experiences can be found <a href="/Te
 <img src="/Media/Photo%206.4.jpg" width="500" height="400">
 <img src="/Media/Photo%206.6.jpg" width="300" height="400">
 
-<h3>These photos show the current version of my fully functional musical wristband prototype with the following features:</h3>
+#### These photos show the current version of my fully functional musical wristband prototype with the following features:
 
 <ul><p>-<b> Textile-based wearable</b> design with extendable 3D printend patterns</p></ul>
 <ul><p>- Embroidered dot patterns which act as <b>interface for touch sensors</b> </p></ul>
 <ul><p>- Capable of playing <b>12 different musical notes</b>, which can be modified easily in the software </p></ul>
 <ul><p>- <b>"DISCO" light</b> which shows a separate color for each note </p></ul>
 
-### Some videos of the working prototype can be found <a href="https://drive.google.com/open?id=1Z6S9Ow4DFeNC1pcFJgWmBOpGZVO2vQA2ew">here</a> and <a href="https://drive.google.com/open?id=1La1Y-eIfwR8ZsLkto_pnXsW72Wj5l-rd9Q">here.</a>
+#### Some videos of the working prototype can be found <a href="https://drive.google.com/open?id=1Z6S9Ow4DFeNC1pcFJgWmBOpGZVO2vQA2ew">here</a> and <a href="https://drive.google.com/open?id=1La1Y-eIfwR8ZsLkto_pnXsW72Wj5l-rd9Q">here.</a>
 
 
 
