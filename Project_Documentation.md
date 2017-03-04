@@ -10,7 +10,7 @@ An overview of my Textile Academy Bootcamp experiences can be found <a href="/Te
 
 <h1> Some insights to choosing materials and parts </h1>
 
-The reason for choosing Neopixel as notification light is straghtforward: Adafruit has their own Arduino library for these little RGB LED chips, which makes it super easy to programm one single chip to show different colors (up to 16 million colors).
+The reason for choosing Neopixel as notification light is straightforward: Adafruit has their own Arduino library for these little RGB LED chips, which makes it super easy to programm one single chip to show different colors (up to 16 million colors).
 
 The reason for choosing the Arduino Pro Micro instead of some other Arduino-based wearable-friendly microcontroller such as the <a href="https://www.sparkfun.com/products/13342">Sparkfun Lilypad Arduino Mainboard</a> is because the Lilypads have to be sewn directly onto the textile as well as all the connections from the Lilypad to the sensors. I find this however not flexible because it would be difficult to troubleshoot when there is some problem with the hardware, as one cannot easily disconnect like wires and pinheaders. As such I made pin headers for all pins of the Arduino Pro Micro so that I can always comfortably connect or disconnect parts from my wristband.
 
