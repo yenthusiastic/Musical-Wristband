@@ -70,11 +70,11 @@ If you are using the Lilypad buzzer like mine, you can either leave it as is or 
 
 <img src="/Media/Photo%205.4c.jpg" width="400" height="300">
 
-<i>Photo: Row of pin headers with resistors, <b><a name="firstpin">first pin</a>is the upper most pin</b></i>
+<i>Photo: Row of pin headers with resistors, <b><a name="firstpin">first pin</a> is the upper most pin</b></i>
 
 Since we are only testing the circuit, you do not have to solder on all 5 resistors but I suggest you do this in one go because it would be difficult to solder on top of the first resistor later on.  
 
-<ul>3.5. Prepare a few pieces of wire of various length (5-15 cm). Make the DIY capacitive sensors by soldering one end of the wire to a small piece of copper tape (5mmx5mm) and then wrap both sides of copper tape with normal scotch tape or similar. Repeat for as many sensors as you want to test.</ul>
+<ul>3.5. Prepare a few pieces of wire of various length (5-15 cm). Make the DIY capacitive sensors by soldering one end of the wire to a small piece of copper tape (5mmx5mm) and then wrap both sides of copper tape with normal scotch tape or similar type of tape. Repeat for as many sensors as you want to test.</ul>
 
 <img src="/Media/Photo%205.4d.jpg" width="400" height="300">
 
