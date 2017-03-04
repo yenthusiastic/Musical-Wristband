@@ -149,7 +149,7 @@ If you wish to add more sensors at this point, repeat the steps 3.4 to 3.6 of [S
 
 Female pin headers 7-12 ------ 10-A3, which also means 
 
-Sensors 6-12 ------------------- 11-A3
+Sensors 6-12 ------------------- 16-A3
 
 And the final wiring would look like this:
 
