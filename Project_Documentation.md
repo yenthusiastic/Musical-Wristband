@@ -34,14 +34,14 @@ Start with printing the <a href="/Design%20files/ScalePattern1mm.stl">3D pattern
 <i>Photo: 3D printed pattern using normal black PLA filament (right) and flexible grey PLA filament (left)</i>
 
 
-<h3>2. Embroid the touch sensors </h3>
-Next, send the <a href="/Design%20files/Embroidery-Pattern">touch sensors pattern</a> to the embroidery machine, which has to be threaded with <b>conductive thread</b>. 
+<h3>2. Embroid the conductive pads for touch sensors </h3>
+Next, send the <a href="/Design%20files/Embroidery-Pattern">conductive pads pattern</a> to the embroidery machine, which has to be threaded with <b>conductive thread</b>. 
 
 In fact, I had to do a bridging step of converting the image to an embroidery file that the machine can actually read using a trial version of the <a href="https://www.wilcom.com/Hatch/Products/HotcakeStoreAdmin/ProductViewer/tabid/3605/slug/Embroidery-Digitizer/Default.aspx">Hatch embroidery digitizer software</a>. And now you are ready to embroid on your textile of choice.
 
 <img src="/Media/Photo%206.2.jpg" width="400" height="300">
 
-<i>Photo: Touch sensors pattern embroidered using conductive thread</i>
+<i>Photo: Conductive pads pattern for touch sensor embroidered using conductive thread</i>
 
 <h3><a name="section3">3. Test electronics and software</a></h3>
 While waiting for the embroidery machine and 3D printer to finish their jobs, test out the hardware and the Arduino sketch by preparing the following parts:
@@ -124,7 +124,7 @@ If the hardware is working fine, continue with making your wristband. Else, I su
 
 <h3>4. Sewing the wristband together</h3>
 
-Now that the touch sensors have been embroidered on the front of the textile, we can cut out the piece of the size we need for the wristband. I cut a piece of around 250mmx85mm and then sew the edges into the back side. We can now make a pocket for the microcontroller at the back side.
+Now that the conductive pads have been embroidered on the front of the textile, we can cut out the piece of the size we need for the wristband. I cut a piece of around 250mmx85mm and then sew the edges into the back side. We can now make a pocket for the microcontroller at the back side.
 
 <img src="/Media/Photo%206.3a.jpg" width="300" height="400">
 
@@ -141,6 +141,8 @@ Next, sew in the velcro loop and hook to the end of both top and bottom side of 
 
 Finally, mount the 3D printed patterns, loudspeaker and Neopixel to the front of the wristband using tape of glue.
 
+<img src="/Media/Photo%206.4.jpg" width="500" height="400">
+
 <h3>5. Final assembly</h3>
 
 If you wish to add more sensors at this point, repeat the steps 3.4 to 3.6 of [Section3](#section3). For the additional sensors, the wiring to the Arduino would be:
@@ -149,6 +151,20 @@ If you wish to add more sensors at this point, repeat the steps 3.4 to 3.6 of [S
 
 Female pin headers 7-12 ------ 10-A3, which also means 
 
-Sensors 6-12 -------------------- 11-A3
+Sensors 6-12 ------------------- 11-A3
 
+And the final wiring would look like this:
 
+<img src="/Media/Photo%206.5.jpg" width="500" height="400">
+
+You can use tape or glue to keep the sensors aligned with the embroidered conductive pads on the wristband.
+
+Now you are ready to power your Arduino board and get your wristband playing!
+
+<img src="/Media/Photo%206.7.jpg" width="500" height="400">
+
+Here I use a cheatsheet for the notes and also the notes are not in any order (excuse my musical incapability) :D
+
+If you would like to play the instrument while wearing it on your wrist, I suggest you covering the electronics with an extra layer of textile to prevent the sensors having direct contact with your skin and being triggered all the time.
+
+THAT'S IT. HAVE FUN WITH YOUR NEW HANDY INSTRUMENT :)
