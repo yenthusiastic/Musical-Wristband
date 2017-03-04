@@ -92,15 +92,15 @@ A table of connections:
 
 Loudspeaker VCC ------------- VCC
 
-Loudspeaker GND ------------- GND
+Loudspeaker GND ------------ GND
 
-Loudspeaker PWM ------------- ~9 
+Loudspeaker PWM ------------ ~9 
 
 NeoPixel VCC ------------------ VCC
 
-NeoPixel GND ------------------ GND
+NeoPixel GND ----------------- GND
 
-NeoPixel DIN ------------------- 8
+NeoPixel DIN ------------------ 8
 
 Female pin headers 1-6 ------- 2-7, which also means 
 
@@ -145,9 +145,9 @@ Finally, mount the 3D printed patterns, loudspeaker and Neopixel to the front of
 
 If you wish to add more sensors at this point, repeat the steps 3.4 to 3.6 of [Section3](#section3). For the additional sensors, the wiring to the Arduino would be:
 
-<b>Component's pin</b> ------------ <b>Arduino's pin</b>
+<b>Component's pin</b> ------------- <b>Arduino's pin</b>
 
-Female pin headers 7-12 ------------ 10-A3, which also means 
+Female pin headers 7-12 ------ 10-A3, which also means 
 
 Sensors 6-12 -------------------- 11-A3
 
