@@ -20,7 +20,7 @@
 
 #define BRIGHTNESS 50
 
-#define NUM_SENSORS 5
+#define NUM_SENSORS 12
 
 #define SENSOR_THRESHOLD 200
 
