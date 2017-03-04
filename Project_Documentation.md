@@ -24,7 +24,7 @@ First, make sure that you have gathered all the components and materials as desc
 
 Refer to the design of the wristband below to have an overview of what we would be making.
 
-<img src="/Design%20files/Bracelet-design-rev0.2.jpg" width="300" height="400">
+<img src="/Design%20files/Bracelet-design-rev0.2.jpg" width="600" height="400">
 
 <h3>1. 3D Print the pattern </h3>
 Start with printing the <a href="/Design%20files/ScalePattern1mm.stl">3D pattern</a>. I printed using the <a href="https://ultimaker.com/en/products/ultimaker-2-plus">Ultimaker 2 Extended</a> 3D printer with a 0.8mm nozzle, first with normal black PLA filament and then with flexible grey PLA filament. The pattern I printed was 200mm wide x 30mm high x 1mm deep, but you can scale it up or down in the <a href="https://ultimaker.com/en/products/cura-software">CURA</a> software.
