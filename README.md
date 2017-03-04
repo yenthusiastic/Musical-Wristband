@@ -7,7 +7,7 @@ This project is done as a final project for the 5-day Textile Academy Bootcamp 2
 An overview of my Textile Academy Bootcamp experiences can be found <a href="/Textile_Bootcamp_Overview.pdf">here</a>.
 
 
-<h1> The results </h1>
+## The results 
 
 <img src="/Media/Photo%206.4.jpg" width="500" height="400">
 <img src="/Media/Photo%206.6.jpg" width="300" height="400">
@@ -19,11 +19,11 @@ An overview of my Textile Academy Bootcamp experiences can be found <a href="/Te
 <ul><p>- Capable of playing <b>12 different musical notes</b>, which can be modified easily in the software </p></ul>
 <ul><p>- <b>"DISCO" light</b> which shows a separate color for each note </p></ul>
 
-<h3>Some videos of the working prototype can be found <a href="https://drive.google.com/open?id=1Z6S9Ow4DFeNC1pcFJgWmBOpGZVO2vQA2ew">here</a> and <a href="https://drive.google.com/open?id=1La1Y-eIfwR8ZsLkto_pnXsW72Wj5l-rd9Q">here.</a></h3>
+### Some videos of the working prototype can be found <a href="https://drive.google.com/open?id=1Z6S9Ow4DFeNC1pcFJgWmBOpGZVO2vQA2ew">here</a> and <a href="https://drive.google.com/open?id=1La1Y-eIfwR8ZsLkto_pnXsW72Wj5l-rd9Q">here.</a>
 
 
 
-<h1> Motivation </h1>
+## Motivation 
 
 Initially, the idea for my final project was to make a bracelet out of interlocking textile patterns (see <a href="/Textile_Bootcamp_Overview.pdf">Overview</a> document, Day 1), and embed a <a href="https://www.adafruit.com/products/2023">Contactless Thermopile Infrared Temperature Sensor</a> from <a href="https://www.adafruit.com/">Adafruit Industries</a>, a loudspeaker, and a compact microcontroller like the <a href="https://www.sparkfun.com/products/10899">Sparkfun Lily Tiny</a> or similar. It will function as a <b>safety wristband</b> which will ring an alarm when the hand is near to a hot object or surface and may get injured by contact with it. For example, in the FabLab we have to work a lot with 3D printers which have hot printing bed as well as hot extruders. As such, one always have to pay attention not to touch these spots. But sometimes, we are too excited to get our newly 3D printed model out of the machine and forget about safety instructions. The wristband would come in handy in such cases.
 
@@ -34,7 +34,7 @@ However, being inspired by the interactive poster from Jana which can play melod
 Using an <a href="http://www.exp-tech.de/pro-micro-5v-16mhz">Arduino Pro Micro</a> (which can replace Arduino UNO for this project’s purpose but is more compact and also easy to be programmed through its micro-USB port), I would be able to wire up together 1 loudspeaker, <a href="https://www.adafruit.com/category/168">1 Neopixel</a> and easily up to 12 DIY capacitive sensors (see <a href="/Overview.pdf">Overview</a> document, Day 4), meaning the wristband can play up to 12 different musical notes.
 
 
-<h1> Resources </h1>
+## Resources
 
 In this repository I have included the materials and skills required to complete the project:
 <ul> <a href="/BOM.xlsx">1. Components, materials and tools list</a></ul>
@@ -44,10 +44,10 @@ In this repository I have included the materials and skills required to complete
 <ul> <ul> <a href="/Design%20files/Embroidery-Pattern.png">c. The embroidery conductive pattern for touch sensors</a></ul></ul>
 <ul> <a href="/Project documentation.txt">3. Documentation of the making process</a></ul>
 <ul> <a href="/Arduino%20Sketch">4. Software/ Arduino sketch</a></ul>
-<ul> <a href="/Textile_Bootcamp_Overview.pdf">5. Summary of the skills learned through Textile Academy Bootcamp</a>
+<ul> <a href="/Textile_Bootcamp_Overview.pdf">5. Summary of the skills learned through Textile Academy Bootcamp</a></ul>
 
 and <a href="/Media">photos and videos</a> of the making process.
 
-<h1> License </h1>
+## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
