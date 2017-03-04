@@ -6,7 +6,6 @@ This project is done as a final project for the 5-day Textile Academy Bootcamp 2
 
 An overview of my Textile Academy Bootcamp experiences can be found <a href="/Textile_Bootcamp_Overview.pdf">here</a>.
 
-=======
 
 <h1> Some insights to choosing materials and parts </h1>
 
@@ -16,7 +15,6 @@ The reason for choosing the Arduino Pro Micro instead of some other Arduino-base
 
 However, if one is more comfortable with sewing and less familiar with soldering, it is possible to make the circuit detachable with Lilypads by sewing snap buttons in between the connection lines, with the button's female part sewn to the Lilypad and the male part sewn to the sensors/ loudspeaker/ Neopixel (or vice versa). As such, only when the snap button is closed would the connection be closed.
 
-=======
 
 <h1> Start making! </h1>
 
