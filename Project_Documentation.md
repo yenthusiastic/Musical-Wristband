@@ -120,7 +120,7 @@ It is possible to change the brightness of the Neopixel in [line 21](/Arduino%20
 
 Each note is basically represented as a frequency which is defined in the [pitches.h](/Arduino%20Sketch/pitches.h) (a C++ header) file.
 
-If the hardware is working fine, continue with making your wristband. Else, I suggest you checking your wiring, components' values, and solder joints.
+If the hardware is working fine, continue with making your wristband. Else, I suggest you check your wiring, components' values, and solder joints.
 
 <h3>4. Sewing the wristband together</h3>
 
@@ -165,6 +165,6 @@ Now you are ready to power your Arduino board and get your wristband playing!
 
 Here I use a cheatsheet for the notes and also the notes are not in any order (excuse my musical incapability) :D
 
-If you would like to play the instrument while wearing it on your wrist, I suggest you covering the electronics with an extra layer of textile to prevent the sensors having direct contact with your skin and being triggered all the time.
+If you would like to play the instrument while wearing it on your wrist, I suggest that you cover the electronics with an extra layer of textile to prevent the sensors having direct contact with your skin and being triggered all the time.
 
 THAT'S IT. HAVE FUN WITH YOUR NEW HANDY INSTRUMENT :)
