@@ -88,21 +88,13 @@ A table of connections:
 
 <b>Component's pin</b> | <b>Arduino's pin</b>
 --- | ---
-
 Loudspeaker VCC | VCC
-
 Loudspeaker GND | GND
-
 Loudspeaker PWM | ~9 
-
 NeoPixel VCC | VCC
-
 NeoPixel GND | GND
-
 NeoPixel DIN | 8
-
 Female pin headers 1-6 | 2-7, which also means 
-
 Sensors 1-5 | 3-7
 
 The loudspeaker PWM pin can be redefined as any other PWM ~ pin in [line 20](/Arduino%20Sketch/Musical_wristband_rev0.2.ino#L20) of the [final sketch](/Arduino%20Sketch/Musical_wristband_rev0.2.ino), as long as it is not the same pin as the sensor pin.
